@@ -30,7 +30,7 @@ find_package(catkin REQUIRED COMPONENTS
   #image_geometry
 )
 
-find_package(OpenCV 3.3.1 REQUIRED HINTS /home/frc-ag/vilsam_dependencies/opencv/opencv_install)  #visual frontend
+find_package(OpenCV 3.3.1 REQUIRED HINTS /root/install/opencv_3.3.1/opencv_install)  #visual frontend
 find_package(OpenMP REQUIRED)
 find_package(PCL REQUIRED QUIET)
 #find_package(OpenCV REQUIRED QUIET) #liosam original
